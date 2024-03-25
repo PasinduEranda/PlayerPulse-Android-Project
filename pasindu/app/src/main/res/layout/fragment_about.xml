@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="530dp"
+    android:layout_gravity="center"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtAbout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="About Us"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#64B5F6"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="150dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Welcome to PlayerPulse – your cricket companion! We're here to deliver quick and insightful details about your favoritecricketers. Dive into their stats, stories, and achievements effortlessly. Our mission is simple: to make cricket information accessible and enjoyable for every fan. Explore the world of cricket with PlayerPulse – where the game comes alive in your hands!"/>
+
+
+</FrameLayout>

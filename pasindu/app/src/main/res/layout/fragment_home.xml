@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="530dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtmatchlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Match Schedules"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <View
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/image1"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#90CAF9"
+         />
+
+
+
+    <TextView
+        android:id="@+id/txtnews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cricket News"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="270dp"
+        />
+    <View
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/image3"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="20dp"
+        app:cardBackgroundColor="#B2EBF2"
+        />
+
+</FrameLayout>

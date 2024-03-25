@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#2761B3"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Player Details"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textColor="#0D47A1"/>
+
+    <View
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:background="#2761B3"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/update_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/add_img" />
+
+    <EditText
+        android:id="@+id/update_name"
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:inputType="text"
+        android:hint="   Enter Player Name"
+        android:background="#F5F5F5"
+        />
+    <!--
+        <Spinner
+            android:id="@+id/spinnerRole"
+            android:layout_width="370dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="410dp"
+            android:background="#F5F5F5"
+            android:spinnerMode="dropdown" /> -->
+
+    <EditText
+        android:id="@+id/update_innings"
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:inputType="number"
+        android:hint="  Enter Player Innings"
+        android:background="#F5F5F5"
+        />
+    <EditText
+        android:id="@+id/update_score"
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="490dp"
+        android:inputType="number"
+        android:hint="  Enter Player Score"
+        android:background="#F5F5F5"
+        />
+    <EditText
+        android:id="@+id/update_wickets"
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="530dp"
+        android:inputType="number"
+        android:hint="  Enter Player Wickets"
+        android:background="#F5F5F5"
+        />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#41C300"
+        android:text="Update Player"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="#B71C1C"
+        android:text="Delete Player"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

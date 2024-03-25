@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="530dp"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    tools:context=".TeamFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtTeamlist"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="ODI Team List"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <!-- SriLanka Team -->
+    <View
+        android:id="@+id/sl"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#0D47A1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/sl"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sri Lankan Cricket Team"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="60dp"/>
+
+    <!-- New Zealand Team -->
+    <View
+        android:id="@+id/nz"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#616161"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="210dp"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/nz"/>
+    <TextView
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:text="New Zealand Cricket Team"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="220dp"/>
+
+    <!--  India Team -->
+
+    <View
+        android:id="@+id/ind"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#00B0FF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="370dp"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/ind"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="India Cricket Team"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="380dp"/>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#2761B3"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a Player"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textColor="#0D47A1"/>
+
+    <View
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg1"
+        />
+
+    <ImageView
+        android:id="@+id/input_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/baseline_add_a_photo_24" />
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="@drawable/input_field_style"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:inputType="text"
+        android:hint="   Enter Player Name"
+
+
+        />
+<!--
+    <Spinner
+        android:id="@+id/spinnerRole"
+        android:layout_width="370dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="410dp"
+        android:background="#F5F5F5"
+        android:spinnerMode="dropdown" /> -->
+
+    <EditText
+        android:id="@+id/input_innings"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="@drawable/input_field_style"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
+        android:inputType="number"
+        android:hint="  Enter Player Innings"
+        />
+    <EditText
+        android:id="@+id/input_score"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="@drawable/input_field_style"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="470dp"
+        android:inputType="number"
+        android:hint="  Enter Player Score"
+        />
+    <EditText
+        android:id="@+id/input_wickets"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:background="@drawable/input_field_style"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="520dp"
+        android:inputType="number"
+        android:hint="  Enter Player Wickets"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="570dp"
+        android:backgroundTint="#41C300"
+        android:text="Save Player"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnCncel"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="#9E9E9E"
+        android:text="Cancel"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>
